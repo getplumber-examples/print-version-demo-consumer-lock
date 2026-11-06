@@ -4,10 +4,10 @@
 version: 'v0.0.3'
 workflows:
     '.github/workflows/print.yml':
-        - 'getplumber-examples/print-version-demo@v0.1.0'
+        - 'getplumber-examples/print-version-demo@v1'
 dependencies:
-    'getplumber-examples/print-version-demo@v0.1.0':
-        ref: 'v0.1.0'
-        commit: 'sha1-f95b8e245021b29ca2ed35c1f14589a12142b068'
+    'getplumber-examples/print-version-demo@v1':
+        ref: 'v1'
+        commit: 'sha1-62fd2ca978b7b2e6e61a02583cd70605527f50f0'
         owner_id: 293806732
         repo_id: 1448114674
